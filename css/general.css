@@ -1,0 +1,80 @@
+/* General */
+* {
+	font-size:12px;
+}
+
+body {
+    font-family: verdana,helvetica,arial,sans-serif;
+    padding: 20px;
+    font-size: 12px;
+    margin: 0;
+}
+
+h2 {
+    font-size:18px;
+    font-weight:bold;
+    margin:0;
+    margin-bottom:15px;
+}
+
+/* Notifications block */
+.success, .error, .info {
+	margin: 10px auto;
+	padding: 15px;
+	width: 750px;
+	text-align: center;
+}
+
+.success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+	display: none;
+}
+
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+	display: none;
+}
+
+.info {
+    color: #00529B;
+    background-color: #BDE5F8;
+	display: none;
+}
+
+/* Edit block */
+table.edit_block {
+    background-color: #fff; 
+    position: absolute; 
+    top: 0; 
+    left: 50%;
+    border: 1px solid #ddd; 
+    width: 300px;
+    height: 180px;
+    margin: 0 0 0 -150px;
+    display: none;
+}
+
+table.edit_block td.label {
+    width: 100px;
+}
+
+table.edit_block td.input {
+    width: 200px;
+}
+
+table.edit_block td.input input.input_width, table.edit_block td.input textarea.input_width {
+    width: 190px;
+    font-family: verdana,helvetica,arial,sans-serif;
+    font-size: 11px;
+}
+
+table.edit_block td.input textarea.input_width {
+    height: 100px;
+    resize: none;
+}
+
+.btn {
+    padding: 3px 5px;
+}
